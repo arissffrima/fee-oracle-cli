@@ -1,0 +1,14 @@
+[package]
+build = "build.rs"
+name = "fee-oracle-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vault Labs"]
+license = "MIT"
+description = "Fee oracle CLI — stub rate, job tag."
+readme = "README.md"
+repository = "https://github.com/vaultlabs/fee-oracle-cli"
+
+[[bin]]
+name = "fee-oracle-cli"
+path = "src/main.rs"
